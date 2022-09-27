@@ -15,8 +15,8 @@ def second():
 def third():
     return 'This is the subpage of third page'
 
-@app.route('/fourth/<string:id>')
-def fourth(id):
+@app.route('/forth/<string:id>')
+def forth(id):
     return f'Id number of this page is {id}'
 
 if __name__ == '__main__':
